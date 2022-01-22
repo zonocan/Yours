@@ -1,0 +1,295 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* 上の部分は気にせずここから書く */
+
+#post_cover{
+	width: 70%;
+	margin: 0 auto;
+	background-color: black;
+	margin-top: 10vw;
+	margin-bottom: 15vw;
+	height: 40vw;
+	display: flex;
+	align-items: center;
+}
+
+#post_inner{
+	width: 98%;
+	margin: 0 auto;
+	background-color: white;
+	height: 37vw;
+	display: flex;
+}
+
+#post_item{
+	width: 55%;
+	background-color: #c9f7f3;
+}
+
+#post_item img{
+	width: 100%;
+	height: 37vw;
+	border-radius: 40px;
+}
+
+
+#item{
+	width: 45%;
+}
+
+#post_profeal{
+	width: 95%;
+	margin: 0 auto;
+	display: flex;
+	height: 5vw;
+	display: flex;
+	align-items: center;
+}
+
+.post_profeal_photo{
+ background-color: #06fae6;
+ width: 3vw;
+ height: 3vw;
+ margin-left: 10%;
+ border-radius: 50%;
+ vertical-align: bottom;
+}
+
+.post_profeal_photo img{
+ width: 100%;
+ height: 3vw;
+ border-radius: 50%;
+ vertical-align: bottom;
+}
+
+.user_name{
+	font-weight: bold;
+	margin-left: 10%;
+}
+
+#post_contets_cover {
+	width: 100%;
+	height: 27vw;
+	background-color: black;
+}
+
+.posting{
+	background-color: #f1f2f2;
+	width: 100%;
+	height: 27vw;
+	border-radius: 30px 0 30px 0;
+}
+
+.date{
+	margin-left: 10%;
+	font-style: oblique;
+	color: black;
+	border-bottom: solid 0.5px;
+}
+
+.contribute{
+	margin-top: 2vw;
+	margin-left: 5%;
+	width: 100%;
+}
+
+#post_buttons_cover{
+	width: 100%;
+}
+
+#post_buttons_inner{
+	background-color: white;
+	border-radius: 0 0 0 50px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	height: 5vw;
+}
+
+#post_buttons_inner label{
+	display: flex;
+	align-items: center;
+	height: 4.5vw;
+	width: 4.5vw;
+}
+
+#post_buttons_inner img{
+	height: 2vw;
+	width: 2vw;
+	margin: 0 auto;
+}
+
+.main_btn{
+	display: inline-block;
+}
+
+.main_btn img{
+	vertical-align: bottom;
+}
+
+#buy_main{
+	display: none;
+}
+
+#like_main{
+	display: none;
+}
+
+#coment_main{
+	display: none;
+}
+
+.main_btn:hover{
+	opacity: 0.5;
+	border-bottom: 5px solid #97012c;
+	cursor: pointer;
+}
+
+.fa-heart{
+	color: black;
+	margin: 0 auto;
+}
+
+.fa-comment-dots{
+	color: black;
+	margin: 0 auto;
+}
+
+
+
+/*ここからmy_page*/
+
+#page_profeal_box{
+	width: 100%;
+	margin-top: 3vw;
+	border-bottom: solid 1px;
+}
+
+.profeal_photo{
+	height: 9vw;
+	width: 9vw;
+	background-color: #06fae6;
+	margin-left: 18%;
+	margin-top: 6vw;
+	border-radius: 50%;
+	vertical-align: bottom;
+}
+
+.profeal_photo img{
+	height: 9vw;
+	width: 9vw;
+	border-radius: 50%;
+}
+
+#edit_page{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2vw;
+}
+
+.user_name{
+	font-size: 2vw;
+	width: 63%;
+	margin: 0 auto;
+}
+
+#past_post_cover{
+	border-bottom: : 1px solid;
+	height: 56vw;
+	margin-top: 3vw;
+  margin-bottom: 7vw;
+}
+
+#past_post_inner{
+	width: 65%;
+	margin-top: 1vw;
+	background-color: white;
+	margin: 0 auto;
+	height: 50vw;
+	margin-bottom: 8vw;
+	display: flex;
+}
+
+
+#past_item_left{
+	width: 100%;
+	height: 50vw;
+	border-bottom: 1px solid;
+	margin-bottom: 10vw;
+}
+
+.page_post_photo{
+	width: 100%;
+	height: 50vw;
+	background-color:  #06fae6;
+
+}
+
+.page_post_photo img{
+	width: 100%;
+	height: 50vw;
+	border: solid 1px;
+}
+
+.page_function{
+	display: flex;
+	justify-content: space-around;
+	border: solid 1px;
+	background-color: white;
+	height: 6vw;
+}
+
+.page_function label{
+	margin-top: 0.5vw;
+}
+
+.page_function img{
+	width: 4vw;
+	height: 4vw;
+}
+
+.far-trash{
+	color: black;
+	margin: 0 auto;
+}
+
+
+/*ここから投稿ページ*/

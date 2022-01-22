@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* 上の部分は気にせずここから書く */
+footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+#post_buttons_cover{
+	width: 100%;
+	background-color: black;
+}
+
+#post_buttons_inner{
+	background-color: white;
+	border-radius: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	height: 5vw;
+}
+
+#post_buttons_inner a{
+	display: flex;
+	align-items: center;
+	height: 4.5vw;
+	width: 4.5vw;
+}
+
+#post_buttons_inner img{
+	height: 4.5vw;
+	width: 4.5vw;
+	margin: 0 auto;
+}
+
+.main_btn{
+	display: inline-block;
+}
+
+.main_btn img{
+	vertical-align: bottom;
+}
+
+#buy_main{
+	display: none;
+}
+
+#like_main{
+	display: none;
+}
+
+#coment_main{
+	display: none;
+}
+
+.main_btn:hover{
+	opacity: 0.5;
+	border-bottom: 5px solid #97012c;
+	cursor: pointer;
+}
+
+.fa-heart{
+	color: black;
+	margin: 0 auto;
+}
+
+.fa-comment-dots{
+	color: black;
+	margin: 0 auto;
+}

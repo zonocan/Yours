@@ -1,0 +1,220 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/*ここから投稿ページ*/
+
+body{
+	width: 100%;
+}
+
+form{
+	width: 100%;
+}
+
+.please{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 8vw;
+}
+
+.please h1{
+	width: 50%;
+	margin: 0 auto;
+	font-weight: bold;
+	font-style: oblique;
+	font-size: 2.3vw;
+	color: #97012c;
+	border-bottom: solid 2px;
+}
+
+.confirm{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 8vw;
+}
+
+.confirm h1{
+	width: 55%;
+	margin: 0 auto;
+	font-weight: bold;
+	font-style: oblique;
+	font-size: 2.3vw;
+	color: #97012c;
+	border-bottom: solid 2px;
+}
+#post_cover{
+	width: 65%;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 8vw;
+	margin-bottom: 5vw;
+	height: 30vw;
+	display: flex;
+	align-items: center;
+}
+
+#post_inner{
+	width: 98%;
+	margin: 0 auto;
+	background-color: white;
+	height: 27vw;
+	display: flex;
+}
+
+#will_post_photo{
+	width: 50%;
+	background-color: #c9f7f3;
+	display: flex;
+	justify-content: center;
+}
+
+.sent_button{
+  width: 15%;
+	margin-top: 10vw;
+	display: inline-block;
+}
+
+.sent_button img{
+	vertical-align: bottom;
+}
+
+.sent_button:hover{
+	opacity: 0.5;
+	border-bottom: 10px solid #97012c;
+	cursor: pointer;
+}
+
+#img_send{
+	display: none;
+}
+
+#will_post_contents{
+	width: 50%;
+}
+
+.contributer_info{
+	width: 100%;
+	height: 6vw;
+	display: flex;
+}
+
+.page_btn:hover{
+	opacity: 0.5;
+	border-bottom: 10px solid #97012c;
+	cursor: pointer;
+}
+
+.contributer_photo{
+	background-color: #06fae6;
+	width: 6vw;
+	height: 6vw;
+	margin: 0 auto;
+	border-radius: 50%;
+	vertical-align: bottom;
+}
+
+.contributer_photo img{
+	width: 6vw;
+	height: 6vw;
+	border-radius: 50%;
+}
+
+.user_name{
+	width: 8vw;
+	height: 4vw;
+	margin-top: 0.2vw;
+	margin-left: 5%;
+	font-weight: bold;
+	font-size: 4vw;
+}
+
+
+#comment_cover{
+	width: 100%;
+	height: 19vw;
+	background-color: black;
+}
+
+#comment_cover textarea{
+	width: 100%;
+	height: 21vw;
+	background-color: #f1f2f2;
+}
+
+.contribute{
+	width: 100%;
+	height: 19vw;
+	background-color: #f1f2f2;
+}
+
+.contribute p{
+
+}
+
+.button{
+	width: 100%;
+  display: flex;
+	justify-content: center;
+	margin-top: 5vw;
+}
+
+.button input{
+	width: 25%;
+	height: 6.5vw;
+	border-radius: 50px 50px 50px 50px;
+	font-weight: bold;
+	background-color: #97012c;
+	color: white;
+	font-size: 4vw;
+	padding-top: 0.1vw;
+	margin-bottom: 1.5vw;
+}
+
+.button button{
+	width: 25%;
+	height: 6.5vw;
+	border-radius: 50px 50px 50px 50px;
+	font-weight: bold;
+	background-color: #97012c;
+	color: white;
+	font-size: 4vw;
+	padding-top: 0.1vw;
+	margin-bottom: 3vw;
+}

@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.to_DM_user{
+	margin-top: 5vw;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+}
+
+.inner{
+	width: 100%;
+
+	background-color: white;
+	border-radius: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.contuct_user{
+	color: black;
+	font-weight: bold;
+	margin-top: 1.5vw;
+	margin-right: 56%;
+	font-size: 3vw;
+}
+
+.DM_btn{
+	display: inline-block;
+}
+
+.DM_btn img{
+	vertical-align: bottom;
+	height: 6vw;
+	width: 6vw;
+	margin-top: 0.5vw;
+}
+
+.DM_btn:hover{
+	opacity: 0.5;
+	border-bottom: 10px solid #97012c;
+	cursor: pointer;
+}
+
+.DM_profeal{
+	background-color: #06fae6;
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 50%;
+	vertical-align: bottom;
+}
+
+.DM_profeal img{
+	width: 6vw;
+	height: 6vw;
+	border-radius: 50%;
+}
+
+.content_DM{
+	width: 100%;
+}
+
+.send_to{
+	width: 40%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 5%;
+	border-radius: 10px 10px 0 10px;
+}
+
+.TO_cover{
+ width: 40%;
+ margin-left: 10%;
+ background-color: black;
+ border-radius: 0px 50px 50px 50px;
+ display: flex;
+}
+
+.TO_{
+	width: 100%;
+	border-radius: 50px 50px 50px 50px;
+	background-color: #f1f2f2;
+}
+
+.TO_ p{
+	width: 80%;
+	margin: 0 auto;
+	font-style: italic;
+}
+
+.MY_dm{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.sent_my_message{
+	width: 45%;
+	margin-right: 5%;
+	border-radius: 50px 50px 50px 50px;
+	background-color: #f1f2f2;
+}
+
+.sent_my_message p{
+  width: 80%;
+	margin: 0 auto;
+}
+
+.message_covre{
+	width: 100%;
+	background-color: black;
+	margin-top: 2vw;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	bottom: 0;
+}
+
+form{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.write_to{
+	width: 60%;
+	border-radius: 50px;
+	background-color: #f1f2f2;
+}
+
+.DM_btn{
+	display: inline-block;
+}
+
+.DM_btn img{
+	vertical-align: bottom;
+}
+
+#mail_dm{
+	display: none;
+}
+
+.DM_btn:hover{
+	opacity: 0.5;
+	border-bottom: 10px solid #97012c;
+	cursor: pointer;
+}
